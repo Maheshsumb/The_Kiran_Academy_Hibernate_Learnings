@@ -65,5 +65,9 @@ public class Student {
 		return "Student [sName=" + sName + ", sCity=" + sCity + ", sAge=" + sAge + "]";
 	}
 	
+	
+	public static void main(String[] args) {
+		
+	}
 
 }
