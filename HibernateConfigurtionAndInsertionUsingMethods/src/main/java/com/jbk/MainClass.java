@@ -8,7 +8,7 @@ import org.hibernate.cfg.Configuration;
 public class MainClass {
 
 	public static void main(String[] args) {
-		Configuration cfg =  new Configuration();
+		Configuration cfg =  new Configuration();     
 		cfg.configure("hibernate.cfg.xml");
 		cfg.addAnnotatedClass(Employee.class);
 		
@@ -17,13 +17,14 @@ public class MainClass {
 		 Transaction tr=ss.beginTransaction();
 		 
 		 Employee e=new Employee();
-		 e.setEmpName("Mahii");
-		 e.setEmpCity("pune");
-		 e.setDepartment("HR");
-		 e.setEmpSalrary("345655");
+		 e.setEmpName("Ram");
+		 e.setEmpCity("NSK");
+		 e.setDepartment("BA");
+		 e.setEmpSalrary("30LPA");
 		 
 		 ss.persist(e);
 		 tr.commit();
+		 
 		 ss.close();
 		
 		 

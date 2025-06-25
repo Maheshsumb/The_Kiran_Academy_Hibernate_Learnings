@@ -25,7 +25,7 @@ public class Employee {
 		super();
 		this.empId = empId;
 		this.empName = empName;
-		this.empCity = empAddress;
+		this.empCity = empCity;
 		this.empSalrary = empSalrary;
 		Department = department;
 	}
