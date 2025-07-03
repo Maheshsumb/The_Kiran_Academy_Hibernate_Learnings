@@ -8,9 +8,11 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.query.Query;
+//import org.hibernate.query.Query;
 
 import com.entities.Student;
+
+import jakarta.persistence.Query;
 
 public class EmployeeDao {
 	Scanner sc = new Scanner(System.in);
@@ -90,8 +92,12 @@ public class EmployeeDao {
 		// Display Operation Using HQL Query
 		
 		String hqlQuery="from Student";
-		Query<Student> query= ss.createQuery(hqlQuery, Student.class);
-		List<Student> lst= query.list();
+//		Query<Student> query= ss.createQuery(hqlQuery, Student.class);
+//		List<Student> lst= query.list();
+		
+		Query query= ss.createQuery(hqlQuery, Student.class);
+		
+		List<Student> lst= query.getResultList();
 		
 	for (Student student : lst) {
 		System.out.println(student);
