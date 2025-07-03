@@ -15,4 +15,8 @@ public class EmployeeService {
 		EmployeeDao ed = new EmployeeDao();
 		ed.deleteData();
 	}
+	public void displayData() {
+		EmployeeDao ed= new EmployeeDao();
+		ed.displayDao();
+	}
 }

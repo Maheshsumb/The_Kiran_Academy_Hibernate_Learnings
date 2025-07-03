@@ -8,6 +8,7 @@ public static void main(String[] args) {
 	es.insertData();
 	es.updateData();
 	es.deleteData();
+	es.displayData();
 	
 	
 }
