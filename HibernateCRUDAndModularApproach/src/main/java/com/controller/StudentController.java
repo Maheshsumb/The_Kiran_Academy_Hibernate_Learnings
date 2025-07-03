@@ -1,10 +1,10 @@
 package com.controller;
 
-import com.service.EmployeeService;
+import com.service.StudentService;
 
-public class EmployeeController {
+public class StudentController {
 public static void main(String[] args) {
-	EmployeeService es = new EmployeeService();
+	StudentService es = new StudentService();
 	es.insertData();
 	es.updateData();
 	es.deleteData();

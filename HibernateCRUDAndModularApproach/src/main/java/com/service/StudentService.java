@@ -1,22 +1,22 @@
 package com.service;
 
-import com.dao.EmployeeDao;
+import com.dao.StudentDao;
 
-public class EmployeeService {
+public class StudentService {
 	public void insertData() {
-		EmployeeDao ed = new EmployeeDao();
+		StudentDao ed = new StudentDao();
 		ed.insertData();
 	}
 	public void updateData() {
-		EmployeeDao ed = new EmployeeDao();
+		StudentDao ed = new StudentDao();
 		ed.updateData();
 	}
 	public void deleteData() {
-		EmployeeDao ed = new EmployeeDao();
+		StudentDao ed = new StudentDao();
 		ed.deleteData();
 	}
 	public void displayData() {
-		EmployeeDao ed= new EmployeeDao();
+		StudentDao ed= new StudentDao();
 		ed.displayDao();
 	}
 }

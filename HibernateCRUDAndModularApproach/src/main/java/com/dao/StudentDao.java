@@ -14,7 +14,7 @@ import com.entities.Student;
 
 import jakarta.persistence.Query;
 
-public class EmployeeDao {
+public class StudentDao {
 	Scanner sc = new Scanner(System.in);
 
 	public void insertData() {
