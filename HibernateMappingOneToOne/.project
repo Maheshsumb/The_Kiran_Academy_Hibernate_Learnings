@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>HibernateMapping</name>
+	<name>HibernateMappingOneToOne</name>
 	<comment></comment>
 	<projects>
 	</projects>
